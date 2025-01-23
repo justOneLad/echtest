@@ -86,7 +86,7 @@ export const projects: Project[] = [
   {
     id: "4",
     name: "Sentx",
-    logo: "/sentx-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/sentx.jpeg?raw=true",
     telegram: "https://t.me/sentx",
     twitter: "https://twitter.com/sentx_io",
     website: "https://sentx.io",
@@ -103,7 +103,7 @@ export const projects: Project[] = [
   {
     id: "5",
     name: "Altlantis",
-    logo: "/altlantis-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/altlantis.jpeg?raw=true",
     telegram: "https://t.me/",
     twitter: "https://twitter.com/altlantisApp",
     website: "https://altlantis.market",
@@ -120,7 +120,7 @@ export const projects: Project[] = [
   {
     id: "6",
     name: "Hash Axis",
-    logo: "/hashaxis-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/hashaxix.jpeg?raw=true",
     telegram: "https://t.me/",
     twitter: "https://twitter.com/hashaxis",
     website: "https://hashaxis.com",
@@ -137,7 +137,7 @@ export const projects: Project[] = [
   {
     id: "7",
     name: "HashGuild",
-    logo: "/hashguild-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/hashguild.jpeg?raw=true",
     telegram: "https://t.me/hashguild",
     twitter: "https://twitter.com/hashguild",
     website: "https://hashguild.xyz",
@@ -159,7 +159,7 @@ export const projects: Project[] = [
   {
     id: "8",
     name: "Bonzo Finance",
-    logo: "/bonzo-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/bonzo.jpeg?raw=true",
     telegram: "https://t.me/",
     twitter: "https://twitter.com/bonzo_finance",
     website: "https://bonzo.finance",
@@ -182,7 +182,7 @@ export const projects: Project[] = [
   {
     id: "9",
     name: "Hedera Monkeys",
-    logo: "/hedera-monkeys-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/HMNKY.jpeg?raw=true",
     telegram: "https://t.me/",
     twitter: "https://twitter.com/HMNKYs",
     website: "https://hederamonkeys.com",
@@ -199,7 +199,7 @@ export const projects: Project[] = [
   {
     id: "10",
     name: "Hashpot",
-    logo: "/hashpot-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/hashpot.jpeg?raw=true",
     telegram: "https://t.me/",
     twitter: "https://twitter.com/hashpotxyz",
     website: "https://hashpot.xyz",

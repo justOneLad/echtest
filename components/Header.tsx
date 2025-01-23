@@ -90,7 +90,7 @@ export function Header() {
             </Link>
           </nav>
           <Button variant="outline" className="ml-auto">
-            Apply to get listed
+            Get Listed
             <ExternalLink className="ml-2 h-4 w-4" />
           </Button>
         </div>
