@@ -5,7 +5,7 @@ import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const ads = [
-  { id: 1, image: "/ad1.jpg", link: "#", alt: "Advertisement 1" },
+  { id: 1, image: "/img/gib.jpeg", link: "#", alt: "Advertisement 1" },
   { id: 2, image: "/ad2.jpg", link: "#", alt: "Advertisement 2" },
   { id: 3, image: "/ad3.jpg", link: "#", alt: "Advertisement 3" },
 ]
