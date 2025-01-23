@@ -78,7 +78,7 @@ export default function ProjectItem({ project }: ProjectItemProps) {
         )}
         <p className="text-sm mt-2">{project.description.slice(0, 100)}...</p>
       </CardContent>
-      <CardFooter className="flex flex-wrap gap-2 justify-center">
+      <CardFooter className="flex flex-wrap gap-2 justify-start sm:justify-center">
         <Button variant="outline" size="sm" asChild>
           <a href={project.telegram} target="_blank" rel="noopener noreferrer">
             <MessageCircle className="w-4 h-4 mr-2" />

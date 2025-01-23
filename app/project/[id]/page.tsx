@@ -111,7 +111,7 @@ export default function ProjectPage() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Header />
-      <main className="container mx-auto px-4 py-12 flex-grow">
+      <main className="container mx-auto px-2 sm:px-4 py-6 sm:py-12 flex-grow w-full max-w-[100vw] overflow-x-hidden">
         {/* Project Header */}
         <div className="flex flex-col md:flex-row items-start gap-6 mb-8">
           <div className="flex-shrink-0">

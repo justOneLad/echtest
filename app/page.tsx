@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="container mx-auto px-4 py-6 sm:py-12">
+      <main className="container mx-auto px-2 sm:px-4 py-4 sm:py-12 w-full max-w-[100vw] overflow-x-hidden">
         <ProjectSlider />
         <div className="flex flex-col sm:flex-row justify-between items-center mb-6 sm:mb-8 space-y-4 sm:space-y-0 sm:space-x-4">
           <CategoryDialog selectedCategories={selectedCategories} onCategoryChange={setSelectedCategories} />
