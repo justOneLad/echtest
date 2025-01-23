@@ -5,9 +5,9 @@ import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const ads = [
-  { id: 1, image: "/img/gib.jpg", link: "#", alt: "Advertisement 1" },
-  { id: 2, image: "/ad2.jpg", link: "#", alt: "Advertisement 2" },
-  { id: 3, image: "/ad3.jpg", link: "#", alt: "Advertisement 3" },
+  { id: 1, image: "https://github.com/HederaEcho/ads/blob/main/GIB.jpeg?raw=true", link: "#", alt: "Advertisement 1" },
+  { id: 2, image: "https://github.com/HederaEcho/ads/blob/main/SMACKM.jpeg?raw=true", link: "#", alt: "Advertisement 2" },
+  { id: 3, image: "https://github.com/HederaEcho/ads/blob/main/dino.jpeg?raw=true", link: "#", alt: "Advertisement 3" },
 ]
 
 export function ProjectSlider() {

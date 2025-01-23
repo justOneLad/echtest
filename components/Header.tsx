@@ -40,7 +40,7 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center px-2 sm:px-4">
         <div className="mr-4 flex">
           <Link className="mr-6 flex items-center space-x-2" href="/">
-            <Image src="/echo-logo.svg" alt="ECHO Logo" width={40} height={40} className="rounded-full" />
+            <Image src="https://github.com/HederaEcho/resources/blob/main/echo-logo.png?raw=true" alt="ECHO Logo" width={40} height={40} className="rounded-full" />
             <span className="font-bold text-sm sm:text-base">Hedera EchoSystem</span>
           </Link>
           {echoPrice && (
@@ -71,7 +71,7 @@ export function Header() {
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <Link
-              href="https://twitter.com/ECHOProject"
+              href="https://twitter.com/HederaEcho"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
@@ -80,16 +80,7 @@ export function Header() {
               <span className="sr-only">Twitter</span>
             </Link>
             <Link
-              href="https://t.me/ECHOProject"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
-            >
-              <Send className="h-5 w-5" />
-              <span className="sr-only">Telegram</span>
-            </Link>
-            <Link
-              href="https://docs.echoproject.io"
+              href="https://docs.testecho.io"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-foreground/80 text-foreground/60"

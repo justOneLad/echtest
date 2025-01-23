@@ -20,7 +20,7 @@ export const projects: Project[] = [
   {
     id: "1",
     name: "SaucerSwap",
-    logo: "/saucerswap-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/SAUCE%20Token%20Icon.png?raw=true",
     telegram: "https://t.me/saucerswap",
     twitter: "https://twitter.com/SaucerSwapLabs",
     website: "https://saucerswap.finance",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
   {
     id: "2",
     name: "HashPack",
-    logo: "/hashpack-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/Hashpack.jpg?raw=true",
     telegram: "https://t.me/hashpack",
     twitter: "https://twitter.com/hashpackwallet",
     website: "https://www.hashpack.app",
@@ -64,7 +64,7 @@ export const projects: Project[] = [
   {
     id: "3",
     name: "HeadStarter",
-    logo: "/headstarter-logo.png",
+    logo: "https://github.com/HederaEcho/resources/blob/main/headstarter.jpeg?raw=true",
     telegram: "https://t.me/headstarterorg",
     twitter: "https://twitter.com/headstarterorg",
     website: "https://headstarter.org",
