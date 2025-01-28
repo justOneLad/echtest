@@ -1,3 +1,12 @@
+export interface TeamMember {
+  name: string
+  role: string
+  twitter?: string
+  telegram?: string
+  github?: string
+  image?: string
+}
+
 export interface Project {
   id: string
   name: string
@@ -10,7 +19,7 @@ export interface Project {
   tokenId: string
   category: string[]
   description: string
-  teamMembers: { name: string; role: string; twitter: string }[]
+  teamMembers: TeamMember[]
   whitepaper: string
   verificationLevel: "basic" | "verified" | "audited"
   dexScreenerPairAddress: string
@@ -31,9 +40,17 @@ export const projects: Project[] = [
     description: "SaucerSwap is the Leading decentralized exchange built on the Hedera network.",
     teamMembers: [
       { name: "Peter Campbell", role: "Co-Founder,Operations & Marketing", twitter: "https://twitter.com/GlieseSauce" },
-      { name: "Joseph Bergvinson", role: "Co-Founder, Operations & Tokenomics", twitter: "https://twitter.com/Hashburglar50" },
+      {
+        name: "Joseph Bergvinson",
+        role: "Co-Founder, Operations & Tokenomics",
+        twitter: "https://twitter.com/Hashburglar50",
+      },
       { name: "Nube", role: "Project Manager", twitter: "https://twitter.com/nubeasado" },
-      { name: "Matthew DeLorenzo", role: "Co-Founder, Smart Contract Engineering Lead", telegram: "https://t.me/littletarzan" },
+      {
+        name: "Matthew DeLorenzo",
+        role: "Co-Founder, Smart Contract Engineering Lead",
+        telegram: "https://t.me/littletarzan",
+      },
     ],
     whitepaper: "https://saucerswap.finance/whitepaper.pdf",
     verificationLevel: "audited",
@@ -53,9 +70,21 @@ export const projects: Project[] = [
     description: "HashPack is the leading Hedera wallet and your gateway to dApps, DeFi and NFTs.",
     teamMembers: [
       { name: "May Chan", role: "Co-Founder & Chief Executive Officer", twitter: "https://twitter.com/may_hashpack" },
-      { name: "Tyler Cote", role: "Co-Founder & Chief Tecnology Officer", twitter: "https://twitter.com/pluto_hashpack" },
-      { name: "Jacob D'Rozario", role: "Co-Founder & Chief Product Officer", twitter: "https://twitter.com/jacobdrozario" },
-      { name: "Nicholas Hanna", role: "Co-Founder & Chief Information Security Officer", telegram: "https://t.me/ArthHashpack" },
+      {
+        name: "Tyler Cote",
+        role: "Co-Founder & Chief Tecnology Officer",
+        twitter: "https://twitter.com/pluto_hashpack",
+      },
+      {
+        name: "Jacob D'Rozario",
+        role: "Co-Founder & Chief Product Officer",
+        twitter: "https://twitter.com/jacobdrozario",
+      },
+      {
+        name: "Nicholas Hanna",
+        role: "Co-Founder & Chief Information Security Officer",
+        telegram: "https://t.me/ArthHashpack",
+      },
     ],
     whitepaper: "",
     verificationLevel: "audited",
@@ -145,7 +174,8 @@ export const projects: Project[] = [
     tokenSymbol: "HGUILD",
     tokenId: "",
     category: ["NFT"],
-    description: "HashGuild is an NFT marketplace on Hedera Blockchain, Collect NFTs like never before where creator meets collector and collector meets creator.",
+    description:
+      "HashGuild is an NFT marketplace on Hedera Blockchain, Collect NFTs like never before where creator meets collector and collector meets creator.",
     teamMembers: [
       { name: "NinjaPanda", role: "Community & Marketing", twitter: "https://twitter.com/ninjapandat" },
       { name: "lawrence", role: "Community & Marketing", twitter: "https://twitter.com/cryptolawrenxe" },
@@ -189,7 +219,7 @@ export const projects: Project[] = [
     discord: "https://discord.gg/",
     tokenSymbol: "HMNKY",
     tokenId: "",
-    category: ["Community","NFT"],
+    category: ["Community", "NFT"],
     description: "Hedera Monkeys is a community NFT project on hedera.",
     teamMembers: [],
     whitepaper: "",
@@ -241,7 +271,8 @@ export const projects: Project[] = [
     tokenSymbol: "HGN",
     tokenId: "",
     category: ["Domain"],
-    description: "Hashgraph.name is the largest registry of web3 tokenized domains on Hedera,primarily a naming service that issues NFT top-layer domains, but aims to be much more.",
+    description:
+      "Hashgraph.name is the largest registry of web3 tokenized domains on Hedera,primarily a naming service that issues NFT top-layer domains, but aims to be much more.",
     teamMembers: [],
     whitepaper: "",
     verificationLevel: "basic",
@@ -275,7 +306,8 @@ export const projects: Project[] = [
     tokenSymbol: "HGATE",
     tokenId: "",
     category: ["Utilities"],
-    description: "Hashgate is a Secure, fast and innovative non-custodial payment gateway powering seamless web3 transactions.",
+    description:
+      "Hashgate is a Secure, fast and innovative non-custodial payment gateway powering seamless web3 transactions.",
     teamMembers: [],
     whitepaper: "",
     verificationLevel: "basic",
@@ -292,7 +324,8 @@ export const projects: Project[] = [
     tokenSymbol: "DAVINCI",
     tokenId: "0.0.3706639",
     category: ["Utilities"],
-    description: "Davinci is a token and financial management suite on Hedera Network, designed for efficiency and security.",
+    description:
+      "Davinci is a token and financial management suite on Hedera Network, designed for efficiency and security.",
     teamMembers: [],
     whitepaper: "",
     verificationLevel: "basic",
@@ -308,8 +341,9 @@ export const projects: Project[] = [
     discord: "https://discord.gg/",
     tokenSymbol: "KBL",
     tokenId: "0.0.5989978",
-    category: ["Utilities","NFT","Wallet","Social"],
-    description: "Kabila is the all-in-one NFT hub for creators and communities, explore hedera with kabila toolsets  and build loyal community thats truly yours with Kabila Wallet, Marketplace,Plaza.",
+    category: ["Utilities", "NFT", "Wallet", "Social"],
+    description:
+      "Kabila is the all-in-one NFT hub for creators and communities, explore hedera with kabila toolsets  and build loyal community thats truly yours with Kabila Wallet, Marketplace,Plaza.",
     teamMembers: [
       { name: "Man", role: "CEO", twitter: "https://twitter.com/" },
       { name: "Fran", role: "CTO", twitter: "https://twitter.com/" },
